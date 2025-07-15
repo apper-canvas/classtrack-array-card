@@ -52,7 +52,7 @@ const StudentTable = ({ students, onEdit, onDelete, onView, onContactParent }) =
                     <div className="flex items-center">
                       <div className="flex-shrink-0 h-10 w-10">
                         <div className="h-10 w-10 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 flex items-center justify-center">
-                          <span className="text-white font-medium text-sm">
+<span className="text-white font-medium text-sm">
                             {student.firstName?.charAt(0)}{student.lastName?.charAt(0)}
                           </span>
                         </div>

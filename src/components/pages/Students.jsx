@@ -42,7 +42,7 @@ const [modalOpen, setModalOpen] = useState(false);
   }, []);
 
   useEffect(() => {
-    const filtered = students.filter(student =>
+const filtered = students.filter(student =>
       `${student.firstName} ${student.lastName}`.toLowerCase().includes(searchTerm.toLowerCase()) ||
       student.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
       student.gradeLevel.toLowerCase().includes(searchTerm.toLowerCase())

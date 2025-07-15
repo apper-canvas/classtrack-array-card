@@ -52,7 +52,7 @@ const Reports = () => {
 
   const getPerformanceByGradeLevel = () => {
     const gradeLevels = ["9th Grade", "10th Grade", "11th Grade", "12th Grade"];
-    const data = gradeLevels.map(level => {
+const data = gradeLevels.map(level => {
       const studentsInLevel = students.filter(s => s.gradeLevel === level);
       const studentIds = studentsInLevel.map(s => s.Id);
       const levelGrades = grades.filter(g => studentIds.includes(g.studentId));
@@ -75,7 +75,7 @@ const Reports = () => {
 
   const getAttendanceByGradeLevel = () => {
     const gradeLevels = ["9th Grade", "10th Grade", "11th Grade", "12th Grade"];
-    const data = gradeLevels.map(level => {
+const data = gradeLevels.map(level => {
       const studentsInLevel = students.filter(s => s.gradeLevel === level);
       const studentIds = studentsInLevel.map(s => s.Id);
       const levelAttendance = attendance.filter(a => studentIds.includes(a.studentId));
@@ -279,7 +279,7 @@ const Reports = () => {
                       <div>
                         <div className="font-medium text-gray-900">
                           {student.firstName} {student.lastName}
-                        </div>
+</div>
                         <div className="text-sm text-gray-500">{student.gradeLevel}</div>
                       </div>
                     </div>

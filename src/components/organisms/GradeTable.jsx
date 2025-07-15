@@ -65,7 +65,7 @@ const GradeTable = ({ students, assignments, grades }) => {
                     <div className="flex items-center">
                       <div className="flex-shrink-0 h-8 w-8">
                         <div className="h-8 w-8 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 flex items-center justify-center">
-                          <span className="text-white font-medium text-xs">
+<span className="text-white font-medium text-xs">
                             {student.firstName?.charAt(0)}{student.lastName?.charAt(0)}
                           </span>
                         </div>
