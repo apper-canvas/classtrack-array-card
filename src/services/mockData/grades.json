@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "studentId": 1,
+    "assignmentId": 1,
+    "score": 92,
+    "submittedDate": "2024-01-15T14:30:00.000Z",
+    "comments": "Excellent work!"
+  },
+  {
+    "Id": 2,
+    "studentId": 1,
+    "assignmentId": 2,
+    "score": 135,
+    "submittedDate": "2024-01-22T16:45:00.000Z",
+    "comments": "Great presentation and research"
+  },
+  {
+    "Id": 3,
+    "studentId": 2,
+    "assignmentId": 1,
+    "score": 88,
+    "submittedDate": "2024-01-15T13:20:00.000Z",
+    "comments": "Good understanding of concepts"
+  },
+  {
+    "Id": 4,
+    "studentId": 2,
+    "assignmentId": 3,
+    "score": 68,
+    "submittedDate": "2024-01-18T12:15:00.000Z",
+    "comments": "Needs improvement in analysis"
+  },
+  {
+    "Id": 5,
+    "studentId": 3,
+    "assignmentId": 1,
+    "score": 95,
+    "submittedDate": "2024-01-15T15:00:00.000Z",
+    "comments": "Outstanding work!"
+  },
+  {
+    "Id": 6,
+    "studentId": 3,
+    "assignmentId": 2,
+    "score": 142,
+    "submittedDate": "2024-01-22T17:30:00.000Z",
+    "comments": "Creative and well-researched"
+  },
+  {
+    "Id": 7,
+    "studentId": 4,
+    "assignmentId": 1,
+    "score": 78,
+    "submittedDate": "2024-01-15T11:45:00.000Z",
+    "comments": "Satisfactory performance"
+  },
+  {
+    "Id": 8,
+    "studentId": 5,
+    "assignmentId": 1,
+    "score": 85,
+    "submittedDate": "2024-01-15T14:00:00.000Z",
+    "comments": "Good effort"
+  },
+  {
+    "Id": 9,
+    "studentId": 6,
+    "assignmentId": 1,
+    "score": 91,
+    "submittedDate": "2024-01-15T13:45:00.000Z",
+    "comments": "Well done!"
+  }
+]

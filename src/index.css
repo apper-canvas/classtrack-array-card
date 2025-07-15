@@ -1,0 +1,76 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+    color: #374151;
+    background-color: #f8fafc;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #111827;
+  }
+}
+
+@layer components {
+  .grade-cell-a {
+    @apply bg-gradient-to-r from-green-50 to-emerald-50 text-green-800 border border-green-200;
+  }
+  
+  .grade-cell-b {
+    @apply bg-gradient-to-r from-blue-50 to-cyan-50 text-blue-800 border border-blue-200;
+  }
+  
+  .grade-cell-c {
+    @apply bg-gradient-to-r from-yellow-50 to-amber-50 text-yellow-800 border border-yellow-200;
+  }
+  
+  .grade-cell-d {
+    @apply bg-gradient-to-r from-orange-50 to-orange-50 text-orange-800 border border-orange-200;
+  }
+  
+  .grade-cell-f {
+    @apply bg-gradient-to-r from-red-50 to-rose-50 text-red-800 border border-red-200;
+  }
+}
+
+.Toastify__toast-container {
+  @apply text-sm font-medium;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg border;
+  min-height: 48px;
+  padding: 12px 16px;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-green-200 text-green-800;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-red-200 text-red-800;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-blue-200 text-blue-800;
+}
+
+.Toastify__toast--warning {
+  @apply bg-white border-yellow-200 text-yellow-800;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary-500 to-secondary-500;
+}

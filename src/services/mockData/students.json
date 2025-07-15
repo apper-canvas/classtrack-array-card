@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily.johnson@email.com",
+    "phone": "(555) 123-4567",
+    "gradeLevel": "12th Grade",
+    "dateEnrolled": "2023-08-15T00:00:00.000Z",
+    "status": "Active"
+  },
+  {
+    "Id": 2,
+    "firstName": "Michael",
+    "lastName": "Chen",
+    "email": "michael.chen@email.com",
+    "phone": "(555) 234-5678",
+    "gradeLevel": "11th Grade",
+    "dateEnrolled": "2023-08-15T00:00:00.000Z",
+    "status": "Active"
+  },
+  {
+    "Id": 3,
+    "firstName": "Sarah",
+    "lastName": "Rodriguez",
+    "email": "sarah.rodriguez@email.com",
+    "phone": "(555) 345-6789",
+    "gradeLevel": "10th Grade",
+    "dateEnrolled": "2023-08-15T00:00:00.000Z",
+    "status": "Active"
+  },
+  {
+    "Id": 4,
+    "firstName": "David",
+    "lastName": "Thompson",
+    "email": "david.thompson@email.com",
+    "phone": "(555) 456-7890",
+    "gradeLevel": "12th Grade",
+    "dateEnrolled": "2023-08-15T00:00:00.000Z",
+    "status": "Active"
+  },
+  {
+    "Id": 5,
+    "firstName": "Jessica",
+    "lastName": "Anderson",
+    "email": "jessica.anderson@email.com",
+    "phone": "(555) 567-8901",
+    "gradeLevel": "9th Grade",
+    "dateEnrolled": "2023-08-15T00:00:00.000Z",
+    "status": "Active"
+  },
+  {
+    "Id": 6,
+    "firstName": "Ryan",
+    "lastName": "Martinez",
+    "email": "ryan.martinez@email.com",
+    "phone": "(555) 678-9012",
+    "gradeLevel": "11th Grade",
+    "dateEnrolled": "2023-08-15T00:00:00.000Z",
+    "status": "Active"
+  },
+  {
+    "Id": 7,
+    "firstName": "Amanda",
+    "lastName": "Wilson",
+    "email": "amanda.wilson@email.com",
+    "phone": "(555) 789-0123",
+    "gradeLevel": "10th Grade",
+    "dateEnrolled": "2023-08-15T00:00:00.000Z",
+    "status": "Inactive"
+  },
+  {
+    "Id": 8,
+    "firstName": "Kevin",
+    "lastName": "Brown",
+    "email": "kevin.brown@email.com",
+    "phone": "(555) 890-1234",
+    "gradeLevel": "12th Grade",
+    "dateEnrolled": "2022-08-15T00:00:00.000Z",
+    "status": "Graduated"
+  }
+]

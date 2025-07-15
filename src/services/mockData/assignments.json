@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "title": "Math Quiz 1",
+    "category": "Quiz",
+    "points": 100,
+    "dueDate": "2024-01-15T23:59:59.000Z",
+    "weight": 25
+  },
+  {
+    "Id": 2,
+    "title": "Science Project",
+    "category": "Project",
+    "points": 150,
+    "dueDate": "2024-01-22T23:59:59.000Z",
+    "weight": 40
+  },
+  {
+    "Id": 3,
+    "title": "History Essay",
+    "category": "Essay",
+    "points": 75,
+    "dueDate": "2024-01-18T23:59:59.000Z",
+    "weight": 30
+  },
+  {
+    "Id": 4,
+    "title": "English Presentation",
+    "category": "Presentation",
+    "points": 50,
+    "dueDate": "2024-01-25T23:59:59.000Z",
+    "weight": 20
+  },
+  {
+    "Id": 5,
+    "title": "Math Test",
+    "category": "Test",
+    "points": 200,
+    "dueDate": "2024-01-30T23:59:59.000Z",
+    "weight": 50
+  }
+]
