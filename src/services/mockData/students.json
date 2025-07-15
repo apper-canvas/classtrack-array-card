@@ -1,5 +1,5 @@
 [
-  {
+{
     "Id": 1,
     "firstName": "Emily",
     "lastName": "Johnson",
@@ -7,9 +7,12 @@
     "phone": "(555) 123-4567",
     "gradeLevel": "12th Grade",
     "dateEnrolled": "2023-08-15T00:00:00.000Z",
-    "status": "Active"
+    "status": "Active",
+    "parentName": "Jennifer Johnson",
+    "parentEmail": "jennifer.johnson@email.com",
+    "parentPhone": "(555) 123-4500"
   },
-  {
+{
     "Id": 2,
     "firstName": "Michael",
     "lastName": "Chen",
@@ -17,9 +20,12 @@
     "phone": "(555) 234-5678",
     "gradeLevel": "11th Grade",
     "dateEnrolled": "2023-08-15T00:00:00.000Z",
-    "status": "Active"
+    "status": "Active",
+    "parentName": "Lisa Chen",
+    "parentEmail": "lisa.chen@email.com",
+    "parentPhone": "(555) 234-5600"
   },
-  {
+{
     "Id": 3,
     "firstName": "Sarah",
     "lastName": "Rodriguez",
@@ -27,9 +33,12 @@
     "phone": "(555) 345-6789",
     "gradeLevel": "10th Grade",
     "dateEnrolled": "2023-08-15T00:00:00.000Z",
-    "status": "Active"
+    "status": "Active",
+    "parentName": "Maria Rodriguez",
+    "parentEmail": "maria.rodriguez@email.com",
+    "parentPhone": "(555) 345-6700"
   },
-  {
+{
     "Id": 4,
     "firstName": "David",
     "lastName": "Thompson",
@@ -37,9 +46,12 @@
     "phone": "(555) 456-7890",
     "gradeLevel": "12th Grade",
     "dateEnrolled": "2023-08-15T00:00:00.000Z",
-    "status": "Active"
+    "status": "Active",
+    "parentName": "Robert Thompson",
+    "parentEmail": "robert.thompson@email.com",
+    "parentPhone": "(555) 456-7800"
   },
-  {
+{
     "Id": 5,
     "firstName": "Jessica",
     "lastName": "Anderson",
@@ -47,9 +59,12 @@
     "phone": "(555) 567-8901",
     "gradeLevel": "9th Grade",
     "dateEnrolled": "2023-08-15T00:00:00.000Z",
-    "status": "Active"
+    "status": "Active",
+    "parentName": "Susan Anderson",
+    "parentEmail": "susan.anderson@email.com",
+    "parentPhone": "(555) 567-8900"
   },
-  {
+{
     "Id": 6,
     "firstName": "Ryan",
     "lastName": "Martinez",
@@ -57,9 +72,12 @@
     "phone": "(555) 678-9012",
     "gradeLevel": "11th Grade",
     "dateEnrolled": "2023-08-15T00:00:00.000Z",
-    "status": "Active"
+    "status": "Active",
+    "parentName": "Carlos Martinez",
+    "parentEmail": "carlos.martinez@email.com",
+    "parentPhone": "(555) 678-9000"
   },
-  {
+{
     "Id": 7,
     "firstName": "Amanda",
     "lastName": "Wilson",
@@ -67,9 +85,12 @@
     "phone": "(555) 789-0123",
     "gradeLevel": "10th Grade",
     "dateEnrolled": "2023-08-15T00:00:00.000Z",
-    "status": "Inactive"
+    "status": "Inactive",
+    "parentName": "Patricia Wilson",
+    "parentEmail": "patricia.wilson@email.com",
+    "parentPhone": "(555) 789-0100"
   },
-  {
+{
     "Id": 8,
     "firstName": "Kevin",
     "lastName": "Brown",
@@ -77,6 +98,9 @@
     "phone": "(555) 890-1234",
     "gradeLevel": "12th Grade",
     "dateEnrolled": "2022-08-15T00:00:00.000Z",
-    "status": "Graduated"
+    "status": "Graduated",
+    "parentName": "Karen Brown",
+    "parentEmail": "karen.brown@email.com",
+    "parentPhone": "(555) 890-1200"
   }
 ]

@@ -5,7 +5,7 @@ import Badge from "@/components/atoms/Badge";
 import ApperIcon from "@/components/ApperIcon";
 import { motion } from "framer-motion";
 
-const StudentTable = ({ students, onEdit, onDelete, onView }) => {
+const StudentTable = ({ students, onEdit, onDelete, onView, onContactParent }) => {
   const getStatusVariant = (status) => {
     switch (status) {
       case "Active": return "success";
@@ -77,7 +77,7 @@ const StudentTable = ({ students, onEdit, onDelete, onView }) => {
                       {student.status}
                     </Badge>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+<td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                     <div className="flex space-x-2">
                       <Button
                         variant="ghost"
@@ -92,6 +92,14 @@ const StudentTable = ({ students, onEdit, onDelete, onView }) => {
                         onClick={() => onEdit(student)}
                       >
                         <ApperIcon name="Edit" size={14} />
+                      </Button>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => onContactParent(student)}
+                        className="text-blue-600 hover:text-blue-700"
+                      >
+                        <ApperIcon name="Phone" size={14} />
                       </Button>
                       <Button
                         variant="ghost"

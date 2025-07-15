@@ -3,6 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import Header from "@/components/organisms/Header";
 import StudentTable from "@/components/organisms/StudentTable";
 import StudentModal from "@/components/organisms/StudentModal";
+import ParentContactModal from "@/components/organisms/ParentContactModal";
 import Loading from "@/components/ui/Loading";
 import Error from "@/components/ui/Error";
 import Empty from "@/components/ui/Empty";
@@ -16,9 +17,11 @@ const Students = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
-  const [modalOpen, setModalOpen] = useState(false);
+const [modalOpen, setModalOpen] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState(null);
   const [modalMode, setModalMode] = useState("add");
+  const [parentContactModalOpen, setParentContactModalOpen] = useState(false);
+  const [selectedStudentForParent, setSelectedStudentForParent] = useState(null);
 
   const loadStudents = async () => {
     try {
@@ -59,10 +62,14 @@ const Students = () => {
     setModalOpen(true);
   };
 
-  const handleViewStudent = (student) => {
+const handleViewStudent = (student) => {
     toast.info(`Viewing ${student.firstName} ${student.lastName}`);
   };
 
+  const handleContactParent = (student) => {
+    setSelectedStudentForParent(student);
+    setParentContactModalOpen(true);
+  };
   const handleDeleteStudent = async (student) => {
     if (window.confirm(`Are you sure you want to delete ${student.firstName} ${student.lastName}?`)) {
       try {
@@ -136,20 +143,27 @@ const Students = () => {
           icon="Search"
         />
       ) : (
-        <StudentTable
+<StudentTable
           students={filteredStudents}
           onEdit={handleEditStudent}
           onDelete={handleDeleteStudent}
           onView={handleViewStudent}
+          onContactParent={handleContactParent}
         />
       )}
 
-      <StudentModal
+<StudentModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
         onSave={handleSaveStudent}
         student={selectedStudent}
         mode={modalMode}
+      />
+
+      <ParentContactModal
+        isOpen={parentContactModalOpen}
+        onClose={() => setParentContactModalOpen(false)}
+        student={selectedStudentForParent}
       />
     </div>
   );

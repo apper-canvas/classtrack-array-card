@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "studentId": 1,
+    "type": "phone",
+    "subject": "Discussed Emily's academic progress",
+    "notes": "Parent inquired about college preparation. Discussed AP course options for next semester.",
+    "date": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "Id": 2,
+    "studentId": 1,
+    "type": "email",
+    "subject": "Attendance concern follow-up",
+    "notes": "Sent attendance report and discussed importance of regular attendance.",
+    "date": "2024-01-10T14:20:00.000Z"
+  },
+  {
+    "Id": 3,
+    "studentId": 2,
+    "type": "meeting",
+    "subject": "Parent-teacher conference",
+    "notes": "Discussed Michael's excellent performance in mathematics. Recommended advanced placement.",
+    "date": "2024-01-12T16:00:00.000Z"
+  },
+  {
+    "Id": 4,
+    "studentId": 2,
+    "type": "phone",
+    "subject": "Science fair project update",
+    "notes": "Confirmed participation and discussed project timeline.",
+    "date": "2024-01-08T09:15:00.000Z"
+  },
+  {
+    "Id": 5,
+    "studentId": 3,
+    "type": "email",
+    "subject": "Grade improvement plan",
+    "notes": "Shared tutoring resources and study schedule recommendations.",
+    "date": "2024-01-14T11:45:00.000Z"
+  },
+  {
+    "Id": 6,
+    "studentId": 4,
+    "type": "phone",
+    "subject": "College application discussion",
+    "notes": "Reviewed application timeline and scholarship opportunities.",
+    "date": "2024-01-16T13:30:00.000Z"
+  },
+  {
+    "Id": 7,
+    "studentId": 5,
+    "type": "message",
+    "subject": "Welcome to high school",
+    "notes": "Initial contact to introduce myself and discuss expectations.",
+    "date": "2024-01-05T08:00:00.000Z"
+  },
+  {
+    "Id": 8,
+    "studentId": 6,
+    "type": "meeting",
+    "subject": "Behavioral improvement meeting",
+    "notes": "Discussed classroom behavior and created action plan.",
+    "date": "2024-01-11T15:30:00.000Z"
+  }
+]
